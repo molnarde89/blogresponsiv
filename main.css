@@ -59,6 +59,9 @@ table {
 }
 
 /* ==== BASE STYLES ==== */
+* {
+	box-sizing: border-box;
+}
 
 body {
   font-family: Merriweather, 'Times New Roman', serif;
@@ -86,4 +89,14 @@ h2 {
   font-size: 1.125rem;
   letter-spacing: 0.125rem;
   color: #8c8e9b;
+}
+
+.picture {
+	width: 100%;
+}
+
+/* ==== LAYOUT STYLES ==== */
+.main-header {
+	text-align: center;
+	padding: 1.25rem;
 }
